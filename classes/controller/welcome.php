@@ -38,6 +38,7 @@ class Controller_Welcome extends Controller_Base {
 		$user = Model::factory('base');
 		$sql = "select  * from school_user limit 1";
 		$row = $user->fetchOne($sql);
+        var_dump($row);
 		$this->page_title = "这个是从页面里面复制的";
 	}
 
