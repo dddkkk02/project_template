@@ -1,7 +1,7 @@
 <?php
 
 class Model_Base extends Model_Database {
-	protect $tablename="";	
+	protected $tablename="";	
 	public function fetchOne($sql, $param=array()){
 		$ret = $this->_db->query(Database::SELECT, $sql, $param);
 		return $ret[0];
