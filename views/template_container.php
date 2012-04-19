@@ -1,10 +1,8 @@
 <?php echo View::factory('header');?>
+<?php echo View::factory('common/nav', $ctl->get_template_data('common/nav'));?>
 <div class="container">
 
-<?php if(isset($page_components['nav'])){
-	echo View::factory($page_components['nav']);
-}?>
-<?php echo View::factory($content);?>
+<?php echo View::factory($content, $ctl->get_template_data($content));?>
 
 </div>
 <?php echo View::factory('footer');?>
