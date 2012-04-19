@@ -2,10 +2,8 @@
 
 class Controller_Base extends Controller_Template {
 	public $page_title = "大学生网上交易平台";
-	public $page_components = array(
-		'nav' => 'common/nav',
-		'foot'=> 'common/foot',
-);
+	public $template = "template_container";
+	
 	public $template_data = array();
 	public function get_template_data($key, $default = array()){
 		return isset($this->template_data[$key])?$this->template_data[$key]:$default;

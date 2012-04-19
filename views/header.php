@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="zh_cn">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +24,12 @@ if(!empty($site_keywords)){ ?>
 <?php } ?>
 
 <title><?php echo $page_title;?></title>
+<style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+      }
+    </style>
 </head>
 <body>
 
