@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
-
 <html>
-
 <head>
-
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php 
 if(!empty($site_keywords)){ ?>
@@ -28,4 +25,5 @@ if(!empty($site_keywords)){ ?>
 
 <title><?php echo $page_title;?></title>
 </head>
+<body>
 

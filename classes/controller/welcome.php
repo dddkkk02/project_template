@@ -1,7 +1,7 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Welcome extends Controller_Base {
-	public $template = "welcome";
+	public $template = "template_container";
 
 	public function action_index()
 	{
@@ -39,6 +39,7 @@ class Controller_Welcome extends Controller_Base {
 		$sql = "select  * from school_user limit 1";
 		$row = $user->fetchOne($sql);
 		$this->page_title = "这个是从页面里面复制的";
+		$this->template->content = "welcome/model";
 	}
 
 } // End Welcome
