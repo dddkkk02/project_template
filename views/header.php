@@ -24,12 +24,7 @@ if(!empty($site_keywords)){ ?>
 <?php } ?>
 
 <title><?php echo $page_title;?></title>
-<style type="text/css">
-      body {
-        padding-top: 50px;
-        padding-bottom: 40px;
-      }
-    </style>
+
 </head>
 <body>
 
