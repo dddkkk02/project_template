@@ -1,3 +1,4 @@
+<!-- 
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container">
@@ -14,7 +15,19 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-
+<!--
     </div>
   </div>
+</div>
+-->
+<div class="container">
+<div class="row">
+<div class="span2">
+  <a href="#">更改学校</a>
+</div>
+<div class=" pull-right">
+  <a href="#">登陆</a>
+</div>
+<hr>
+</div>
 </div>
