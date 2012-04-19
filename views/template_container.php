@@ -1,5 +1,5 @@
 <?php echo View::factory('header');?>
-<div id="container">
+<div class="container">
 
 <?php if(isset($page_components['nav'])){
 	echo View::factory($page_components['nav']);

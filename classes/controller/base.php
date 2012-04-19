@@ -12,6 +12,10 @@ class Controller_Base extends Controller_Template {
 		
 		View::set_global('site_keywords', $site['keywords']);
 		View::set_global('site_description', $site['description']);
+		View::set_global('site_js', $site['js']);
+		View::set_global('js_path', $site['js_path']);
+		View::set_global('site_css', $site['css']);
+		View::set_global('css_path', $site['css_path']);
 		View::bind_global('page_title', $this->page_title);
 		View::bind_global('page_components', $this->page_components);
 	}

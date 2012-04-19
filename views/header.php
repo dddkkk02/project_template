@@ -13,12 +13,12 @@ if(!empty($site_keywords)){ ?>
 
 <?php if(!empty($site_js)){?>
 	<?php foreach($site_js as $js_src) {?>
-		<script type="text/javascript" src="<?php echo $js_src;?>"></script>
+		<script type="text/javascript" src="<?php echo Url::base().$js_path.$js_src;?>"></script>
 	<?php }?>
 <?php } ?>
 <?php if(!empty($site_css)){?>
 	<?php foreach($site_css as $css_src) {?>
-		<link rel="stylesheet" href="<?php $css_src;?>" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="<?php echo Url::base().$css_path.$css_src;?>" type="text/css" media="screen"/>
 
 	<?php }?>
 <?php } ?>
